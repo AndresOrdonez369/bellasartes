@@ -496,11 +496,11 @@ img{
 }
 .portfolio__content{
     padding: 0 1.5rem;
-    margin-top: var(--mb-6);
+    margin-top: var(--mb-4);
 }
 .portfolio__img{
-    width: 256px;
-    border-radius: .5rem;
+    width: 300px;
+    border-radius: .2rem;
     justify-self: center;
 }
 .portfolio__title{

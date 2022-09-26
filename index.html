@@ -13,14 +13,17 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Portafolio Campus </title>
+         <!--==================== DATA AOS CSS ====================-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <title>Laboratorios Arte y tecnología </title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
              <nav class="nav container">
                  <a href="#" class="nav__logo"> 
-                      Campus
+                      Arte y tecnología
                  </a>
                  <div class="nav__menu" id="nav-menu">
                      <ul class="nav__list grid">
@@ -70,8 +73,8 @@
              <div class="home__container container grid">
                  <div class="home__content grid"> 
                      <div class="home__social">
-                         <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
-                            <i class="uit uil-linkedin-alt"></i>
+                         <a href="https://forms.gle/CwkptQrZfgiGtGAe9" target="_blank" class="home__social-icon">
+                            <i class="uil uil-notes"></i>
                          </a>
                          <a href="https://www.youtube.com/channel/UC5UIw8GXHsiAsabTFRJXZ1A/videos"  target="_blank" class="home__social-icon">
                             <i class="uit uil-youtube"></i>
@@ -80,15 +83,24 @@
                             <i class="uit uil-facebook-f"></i>
                         </a>
                      </div>
-                     <div class="home__img">
-                        <img class="home__blob-img" src="assets/img/logo_campus.png"/>
+                     <div class="home__img" data-aos="fade-left"
+                     data-aos-duration="1500">
+                        <video width="420" height="540" autoplay muted>
+                            <source src="Video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                        
                      </div>
-                     <div class="home__data">
-                         <h1 class="home__title">Laboratorios Campus</h1>
-                         <h3 class="home__subtitle" data-aos="fade-up"
+                     <div class="home__data" >
+                         <h1 class="home__title" data-aos="fade-right"
+                         data-aos-duration="1000" >Laboratorios Arte y tecnología</h1>
+                         <h3 class="home__subtitle" data-aos="fade-right"
+                         data-aos-duration="1500"
                        >Espacio de creación, construcción e investigación</h3>
-                         <p class="home__description">Experiencias y espacios para innovación en arte y tecnología.</p>
-                         <a href="#contact" class="button-home button button--flex">
+                         <p class="home__description" data-aos="fade-right"
+                         data-aos-duration="1500">Experiencias y espacios para innovación en arte y tecnología.</p>
+                         <a href="#contact" class="button-home button button--flex" data-aos="fade-up"
+                         data-aos-duration="1500">
                              Contáctanos <i class="uil uil-message button__icon"></i>
                          </a>
                      </div>
@@ -104,31 +116,37 @@
             </section>
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                <h2 class="section__title"> Nosotros </h2>
-                <span class="section__subtitle">¿ Quienes somos ? </span>
+                <h2 class="section__title"data-aos="fade-down"
+                data-aos-duration="1000"> Nosotros </h2>
+                <span class="section__subtitle" data-aos="fade-right"
+                data-aos-duration="1000">¿ Quienes somos ? </span>
                 <div class="about__container container grid">
-                    <img src="assets/img/streamingCampus1.jpeg" alt="" class="about__img">
+                    <img src="assets/img/FotograSalaVirtual_1.jpg" alt="" class="about__img" data-aos="fade-right"
+                    data-aos-duration="1500">
                     <div class="about__data">
-                        <p class="about__description"> Espacio de creación, producción e investigación con diversidad de insumos tecnologicos y el acompañamiento de expertos. Con Campus disfrutarás una experiencia que permitirá que la union entre arte y tecnología genere productos y servicios de valor.</p>
+                        <p class="about__description" data-aos="fade-left"
+                        data-aos-duration="1500"> Espacio de creación, producción e investigación con diversidad de insumos tecnologicos y el acompañamiento de expertos. Con los laboratorios de arte y tecnología disfrutarás una experiencia que permitirá que la union entre arte y tecnología genere productos y servicios de valor.</p>
                         <div class="about__info">
-
-                            <div>
+                            <div data-aos="fade-up"
+                            data-aos-duration="1700">
                                 <span class="about__info-title">+200</span>
                                 <span class="about__info-name">Insumos <br> tecnológicos</span> 
                             </div>
-                            <div>
-                                <span class="about__info-title"> 6</span>
+                            <div data-aos="fade-up"
+                            data-aos-duration="1700">
+                                <span class="about__info-title"> 4</span>
                                 <span class="about__info-name">Unidades <br>operativas</span> 
                             </div>
-                            <div>
+                            <div data-aos="fade-up"
+                            data-aos-duration="1700">
                                 <span class="about__info-title">+6</span>
                                 <span class="about__info-name">Servicios <br>especializados</span> 
                             </div>
                         </div>
                     </div>
                     <div class="about__buttons">
-                            <a download="" href="assets/pdf/LaboratoriosCampus2021.pdf" class="button button--flex">
-                            Catalogo de productos<i class="uil uil-download-alt button__icon"></i>
+                            <a href="https://forms.gle/CwkptQrZfgiGtGAe9" target="_blank" class="button button--flex">
+                            Realizar una solicitud<i class="uil uil-download-alt button__icon"></i>
                             </a>
                     </div>
                     </div>
@@ -138,11 +156,14 @@
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
-                <h2 class="section__title">Unidades Operativas</h2>
-                <span class="section__subtitle">¿ Qué unidades tienes Campus ?</span>
+                <h2 class="section__title" data-aos="fade-down"
+                data-aos-duration="1000" >Unidades Operativas</h2>
+                <span class="section__subtitle" data-aos="fade-right"
+                data-aos-duration="1000">¿ Qué unidades tienen los laboratorios de Arte y tecnología ?</span>
                 <div class="services__container container grid">
                     <!--==================== SERVICES 1 ====================-->
-                    <div class="services__content">
+                    <div class="services__content" data-aos="fade-down"
+                    data-aos-duration="1400">
                         <div>
                            <i class="uil uil-cube services__icon"></i>
                            <h3 class="services__title"> Captación de <br> movimiento y <br>realidad 3D.</h3>
@@ -172,7 +193,7 @@
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Motion Caption</p>
+                                        <p>Motion Capture Optitrack</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
@@ -183,7 +204,8 @@
                         </div>
                     </div>
                     <!--==================== SERVICES 2 ====================-->
-                    <div class="services__content">
+                    <div class="services__content" data-aos="fade-down"
+                    data-aos-duration="1800">
                         <div>
                           <i class="uil uil-print services__icon"></i>
                            <h3 class="services__title"> Diseño de<br> artefactos y<br> prototipos. </h3>
@@ -196,17 +218,17 @@
                         <div class="services__modal">
                             <div class="services__modal-content">
                                 <h4 class="services__modal-title">
-                                    Elaboración de prototipos hardware con apoyo de impresoras 3D, ruteadora CNC, cortadora laser, plotter de corte y tarjetas de adquisición.
+                                    Elaboración de prototipos hardware con apoyo de impresoras 3D, ruteadora CNC, cortadora laser y grabadora láser, plotter de corte y tarjetas de adquisición.
                                 </h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>CNC</p>
+                                        <p>Ruteadora CNC</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Impresoras 3D</p>
+                                        <p>Impresoras 3D FDM</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
@@ -214,7 +236,11 @@
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Cortadora laser</p>
+                                        <p>Cortadora laser y grabadora láser 90W</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Arduino</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
@@ -225,12 +251,12 @@
                         </div>
                     </div>
                     <!--==================== SERVICES 3 ====================-->
-                    <div class="services__content">
+                    <div class="services__content" data-aos="fade-down"
+                    data-aos-duration="2200">
                         <div>
                             <i class="uil uil-web-grid services__icon"></i>
                            <h3 class="services__title">Espacio <br> polivalente </h3>
                         </div> 
-
                         <span class=" button--flex button--small button--link services__button">
                             Ver más
                             <i class="uil uil-arrow-right button__icon"></i>  
@@ -266,91 +292,9 @@
                             </div>
                         </div>
                     </div>
-                    <!--==================== SERVICES 4 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-sliders-v-alt services__icon"></i>
-                           <h3 class="services__title">Producción de<br>sonido.<br></h3>
-                        </div> 
-
-                        <span class="button--flex button--small button--link services__button">
-                            Ver más
-                            <i class="uil uil-arrow-right button__icon"></i>  
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">
-                                    Grabación, edición, producción y postproducción de toda la cadena de valor del audio y video
-                                </h4>
-                                <i class="uil uil-times services__modal-close"></i>
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Consola digital M32RLIVE MIDAS</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>PRTools</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Consola de audio SoundCraft</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Microfono de condensador Shure</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Y mucho más</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--==================== SERVICES 5 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-edit services__icon"></i>
-                           <h3 class="services__title">Transmisión y <br>videostreaming</h3>
-                        </div> 
-
-                        <span class="button--flex button--small button--link services__button">
-                            Ver más
-                            <i class="uil uil-arrow-right button__icon"></i>  
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">
-                                    Producción de contenidos digitales, videos promocionales, obras, entre otros.
-                                </h4>
-                                <i class="uil uil-times services__modal-close"></i>
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Consola de emisión/transmisión Telestream Wirecast Gear 210 </p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Sistema teleconfernecia Logitech</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Jvc 4K Camara</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Ronin-S</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Y mucho más</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services__content">
+                    <!--==================== SERVICES 4 ====================-->            
+                    <div class="services__content" data-aos="fade-down"
+                    data-aos-duration="2700">
                         <div>
                             <i class="uil uil-edit services__icon"></i>
                            <h3 class="services__title">Contenidos audiovisuales <br> de producción y emisión</h3>
@@ -396,11 +340,14 @@
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portafolio">
-                <h2 class="section__title">Portafolio</h2>
-                <span class="section__subtitle">Trabajo reciente</span>
+            <section class="portfolio section" id="portafolio" >
+                <h2 class="section__title" data-aos="fade-down"
+                data-aos-duration="1000">Portafolio</h2>
+                <span class="section__subtitle" data-aos="fade-right"
+                data-aos-duration="1100">Algunos trabajos realizados</span>
                 <!--==================== PORTFOLIO 1 ====================-->
-                <div class="portfolio__container container swiper-container">
+                <div class="portfolio__container container swiper-container" data-aos="fade-right"
+                data-aos-duration="1400">
                     <div class="swiper-wrapper">
                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/simuladorBa1.PNG" alt="" class="portfolio__img">
@@ -414,24 +361,19 @@
                                 </div>
                         </div>
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/VRandres.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
-                              <h3 class="portfolio__title">Virtual reality con Unity y leap motion</h3>
-                              <p class="portfolio__description">Laboratorio de realidad virtual con Oculus Rift S, Unity y leap motion.</p>
-                              <a href="#" class="button button--flex button--small portfolio__button">
-                              Demo
-                              <i class="uil uil-arrow-right button__icon"></i>  
-                          </a>
+                              <h3 class="portfolio__title">Realidad virtual y realidad aumentada</h3>
+                              <p class="portfolio__description">Laboratorio de realidad virtual con Oculus Rift S, Unity, Vuforia, XR interaction toolkit y leap motion.</p>
+                              
                           </div>
                         </div> 
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/fotoPorta.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
-                              <h3 class="portfolio__title">Producción de MOC</h3>
-                              <p class="portfolio__description">Producción digital de video profesional en MOC de maquillaje, música, entre otros.</p>
-                              <a href="#" class="button button--flex button--small portfolio__button">
-                              Demo
-                              <i class="uil uil-arrow-right button__icon"></i>  
+                              <h3 class="portfolio__title">Montaje de proyectos de electrónica</h3>
+                              <p class="portfolio__description">Elaboración de proyectos de electrónica usando tarjetas de adquisición, corte láser y sensores.</p>
+                             
                              </a>
                             </div>
                         </div> 
@@ -460,9 +402,12 @@
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-                <h2 class="section__title">Contáctanos</h2>
-                <span class="section__subtitle">Estemos en contacto</span>
-                <div class="contact__container container grid">
+                <h2 class="section__title" data-aos="fade-down"
+                data-aos-duration="1000">Contáctanos</h2>
+                <span class="section__subtitle" data-aos="fade-right"
+                data-aos-duration="1200">Estemos en contacto</span>
+                <div class="contact__container container grid" data-aos="fade-up"
+                data-aos-duration="1400">
                     <div>
                         <div class="contact__information"> 
                             <i class="uil uil-phone contact__icon">  </i>
@@ -515,8 +460,8 @@
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
-                        <h1 class="footer__title">Campus</h1>
-                        <span class="footer__subtitle">Laboratorios</span>
+                        <h1 class="footer__title">Laboratorios</h1>
+                        <span class="footer__subtitle">Arte y tecnología</span>
                     </div>
                     <ul class="footer__links">
                         <li>
@@ -541,7 +486,7 @@
                         </a>
                     </div>
                 </div>
-                <p class="footer__copy">&#169; Campus 2021 . Todos los derechos reservados.</p>
+                <p class="footer__copy">&#169; Laboratorios arte y tecnología 2022. Todos los derechos reservados.</p>
             </div>
         </footer>
         <!--==================== SCROLL TOP ====================-->
@@ -558,6 +503,9 @@
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
         <!--=================DATA AOS SCROLL JS-->
-        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script> 
     </body>
 </html>
